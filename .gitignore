@@ -1,11 +1,51 @@
+# Python
 __pycache__/
 *.pyc
-.DS_Store
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
 .venv/
 venv/
-*.egg-info/
+ENV/
+env/
+
+# Jupyter
 .jupyter/
 .ipynb_checkpoints/
-data/raw/*
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Data files (can be regenerated from scripts)
+data/raw/
+data/processed/
 *.csv
-!data/processed/*
+
+# Large files
+*.xlsx
+*.xls
+*.feather
+*.parquet
+
+# Notebook outputs (optional - remove if you want to keep visualizations)
+# Uncomment the next line to ignore notebook outputs completely
+# *.ipynb_checkpoints/
+
+# Project-specific (if any IDE temp files)
+.project
+.pydevproject
