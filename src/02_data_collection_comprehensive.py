@@ -24,15 +24,15 @@ def create_historical_world_cup_data():
         'Host_Region': ['Europe', 'Asia', 'Europe', 'Africa', 'South America', 'Europe', 'Asia'],
         'Total_Attendance': [2785100, 2705197, 3359439, 3178856, 3429873, 3031768, 3404252],
         'Average_Attendance': [43517, 42269, 52491, 49669, 53591, 47372, 53191],
-        'Revenue_Millions_USD': [600, 1400, 3600, 3600, 15000, 6100, 220],  # Ajusté à l'inflation
-        'Host_GDP_Billions_USD': [1500, 600, 3700, 370, 1840, 1660, 250],
+        'Revenue_Millions_USD': [2800, 3100, 3600, 4200, 4800, 6100, 7500], # Real approx FIFA revenues
+        'Host_GDP_Billions_USD': [1500, 600, 3700, 370, 1840, 1660, 237],
         'Host_Population_Millions': [60, 48, 82, 50, 203, 146, 3],
         'Developed_Economy': [True, False, True, False, False, True, False],
         'Matches_Played': [64, 64, 64, 64, 64, 64, 64],
-        'Visitor_Count_Millions': [8.5, 7.5, 11.2, 10.5, 14.5, 11.8, 1.2],  # Estimations
-        'Tourism_Revenue_Millions_USD': [450, 950, 2400, 2100, 8850, 4200, 150],
-        'Employment_Created': [35000, 28000, 42000, 33000, 65000, 45000, 8000],
-        'Infrastructure_Investment_Billions_USD': [2.5, 3.8, 4.2, 3.5, 15, 11, 6.5]
+        'Visitor_Count_Millions': [1.5, 1.2, 3.3, 3.1, 3.4, 3.0, 1.4], # More realistic international visitors
+        'Tourism_Revenue_Millions_USD': [1500, 1200, 2500, 2200, 3000, 3200, 1800],
+        'Employment_Created': [35000, 28000, 42000, 33000, 65000, 45000, 100000],
+        'Infrastructure_Investment_Billions_USD': [2.5, 3.8, 4.2, 3.5, 15, 11, 220]
     }
     
     df = pd.DataFrame(world_cup_data)
