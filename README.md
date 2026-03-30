@@ -2,21 +2,21 @@
 
 > **Predicting the economic impact of the 2026 FIFA World Cup hosted in the United States using multi-source data collection, advanced analytics, and machine learning.**
 
-## 🎯 Project Objectives
+## Project Objectives
 
 This project serves as a **comprehensive data science case study** demonstrating:
-- ✅ **Multi-source data collection** (web scraping, APIs, public databases)
-- ✅ **Data cleaning & fusion** (harmonizing disparate sources)
-- ✅ **Exploratory Data Analysis** (EDA with statistical insights)
-- ✅ **Feature engineering** (creating predictive variables)
-- ✅ **Predictive modeling** (regression, ensemble methods)
-- ✅ **Data visualization** (interactive dashboards & storytelling)
+- **Multi-source data collection** (web scraping, APIs, public databases)
+- **Data cleaning & fusion** (harmonizing disparate sources)
+- **Exploratory Data Analysis** (EDA with statistical insights)
+- **Feature engineering** (creating predictive variables)
+- **Predictive modeling** (regression, ensemble methods)
+- **Data visualization** (interactive dashboards & storytelling)
 
 The goal is to deliver **data-driven insights** on the expected economic outcomes of hosting the 2026 World Cup in the USA.
 
 ---
 
-## 📋 Key Research Questions
+##  Key Research Questions
 
 | Question | Impact |
 |----------|--------|
@@ -28,7 +28,7 @@ The goal is to deliver **data-driven insights** on the expected economic outcome
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 fifa-2026-economic-impact/
@@ -74,7 +74,7 @@ fifa-2026-economic-impact/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9+
@@ -127,7 +127,7 @@ Then open your browser and navigate to the notebooks:
 
 ---
 
-## 📊 Data Sources
+##  Data Sources
 
 ### 1. **Historical World Cup Data** (1998-2022)
 - **Source**: FIFA, World Bank, National statistics offices
@@ -161,66 +161,7 @@ Then open your browser and navigate to the notebooks:
 
 ---
 
-## 🔧 Data Processing Pipeline
-
-### Phase 1: Data Collection ✅
-```
-02_data_collection_comprehensive.py
-├─ Historical World Cup (1998-2022)
-├─ USA 2026 Stadiums (12 venues)
-├─ Host Cities Demographics
-├─ Regional Economic Data
-├─ Ticket Revenue History
-└─ Inflation Adjustment Factors
-```
-**Output**: 6 CSV files in `data/raw/`
-
-### Phase 2: Data Cleaning & Integration ✅
-```
-03_data_cleaning_integration.py
-├─ Clean & validate datasets
-├─ Handle missing values & outliers
-├─ Feature engineering
-│  ├─ Economic indicators
-│  ├─ Regional multipliers
-│  └─ Infrastructure indices
-└─ Create integrated master dataset
-```
-**Output**: Processed files in `data/processed/`
-
-### Phase 3: Exploratory Analysis 🔄
-```
-notebooks/01_data_exploration.ipynb
-├─ Historical trend analysis
-├─ Correlation matrices
-├─ Regional impact visualization
-├─ Tourism potential indices
-└─ Baseline projections
-```
-
-### Phase 4: Predictive Modeling 🔄
-```
-notebooks/03_predictive_models.ipynb
-├─ Linear Regression baseline
-├─ Random Forest models
-├─ XGBoost optimization
-├─ Ensemble methods
-└─ Scenario analysis (optimistic/pessimistic)
-```
-
-### Phase 5: Final Reporting 🔄
-```
-reports/IMPACT_ECONOMIQUE_COUPE_MONDE_2026.pdf
-├─ Executive summary
-├─ Methodology
-├─ Key findings
-├─ Regional breakdown
-└─ Recommendations
-```
-
----
-
-## 📈 Key Metrics & Outputs
+##  Key Metrics & Outputs
 
 ### Revenue Predictions
 - **Total Economic Impact** (estimated)
@@ -245,70 +186,7 @@ reports/IMPACT_ECONOMIQUE_COUPE_MONDE_2026.pdf
 
 ---
 
-## 📊 Expected Results (Preliminary Estimates)
-
-Based on historical data and USA-specific factors:
-
-| Metric | Estimate | Confidence |
-|--------|----------|-----------|
-| Total Stadium Attendance | 3.2-3.5M | High |
-| Total Revenue | $8-11B USD | Medium |
-| Employment Created | 80,000-120,000 | Medium |
-| Tourism Revenue | $5-7B USD | Medium |
-| Inflation-Adjusted (2026 USD) | Applied | Yes |
-
-*Note: Final projections will be refined through modeling in Phase 4*
-
----
-
-## 🛠️ Technologies Used
-
-| Category | Tools |
-|----------|-------|
-| **Data Processing** | Pandas, NumPy, Scipy |
-| **Visualization** | Matplotlib, Seaborn, Plotly |
-| **Machine Learning** | Scikit-learn, XGBoost, LightGBM |
-| **Notebooks** | Jupyter, IPython |
-| **APIs & Web** | Requests, BeautifulSoup4 |
-| **Utilities** | openpyxl (Excel), python-dateutil |
-
----
-
-## 📚 Key Skills Demonstrated
-
-✅ **Data Collection**
-- Multi-source data gathering (APIs, web scraping, public databases)
-- Data validation & quality assurance
-
-✅ **Data Engineering**
-- Cleaning & transformation
-- Schema harmonization
-- Feature engineering & derivation
-
-✅ **Statistical Analysis**
-- Descriptive statistics
-- Correlation analysis
-- Hypothesis testing
-
-✅ **Predictive Modeling**
-- Regression analysis (linear, ridge, lasso)
-- Tree-based models (Random Forest, XGBoost)
-- Ensemble methods
-- Cross-validation & hyperparameter tuning
-
-✅ **Data Visualization**
-- Exploratory charts (distributions, trends, patterns)
-- Interactive dashboards (Plotly)
-- Comparative visualizations
-
-✅ **Communication**
-- Executive summaries
-- Data storytelling
-- Actionable insights & recommendations
-
----
-
-## 🔬 Methodology Notes
+##  Methodology Notes
 
 ### Assumptions
 1. **Attendance**: 80% average stadium capacity (conservative)
@@ -331,16 +209,7 @@ Based on historical data and USA-specific factors:
 
 ---
 
-## 📞 Contact & Support
-
-For questions or issues:
-1. Check the `PROJECT_PLAN.md` for detailed methodology
-2. Review notebook in `notebooks/01_data_exploration.ipynb`
-3. Examine source code in `src/` for data processing details
-
----
-
-## 📄 License & Attribution
+##  License & Attribution
 
 This is an **independent analysis project** created for educational & analytical purposes. 
 
@@ -352,19 +221,4 @@ Data sources are publicly available:
 
 ---
 
-## 🎓 Learning Outcomes
-
-By completing this project, you will understand:
-- ✓ End-to-end data science workflow
-- ✓ Real-world data collection challenges
-- ✓ Statistical analysis techniques
-- ✓ Machine learning model selection
-- ✓ Data-driven decision making
-- ✓ Professional data communication
-
----
-
-**Last Updated**: March 28, 2026  
-**Status**: 🚀 Active Development  
-**Phase**: 1 (Data Collection ✅) → 2 (EDA 🔄)
 
